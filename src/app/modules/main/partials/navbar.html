@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <!-- .navbar-header contains links seen on xs & sm screens -->
+  <div class="navbar-header">
+    <ul class="nav navbar-nav">
+      <li>
+        <!-- shown on xs & sm screen. collapses and expands navigation -->
+        <a class="visible-xs navbar-toggle toggle-navigation-collapse" nav-collapse-toggler type="click" href="#" title="Show/hide sidebar" data-placement="bottom" data-tooltip>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+      </li>
+    </ul>
+    <!--xs & sm screen logo -->
+    <a class="navbar-brand visible-xs">
+      {{app.name}}
+    </a>
+  </div>
+
+  <!-- this part is hidden for xs screens -->
+  <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown" dropdown>
+        <a href="#"  dropdown-toggle>
+          <i class="glyphicon glyphicon-user mr-xs"></i>
+          Andrew<span class="fw-semi-bold">Xie</span><span class="badge bg-warning ml-xs">6</span>
+        </a>
+      </li>
+      <li class=""></li>
+      <li>
+        <a href ng-click="logout()">
+          Logout
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
