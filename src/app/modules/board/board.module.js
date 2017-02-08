@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  var module = angular.module('app.board', ['ui.router']);
+  var module = angular.module('app.board', ['ui.router', 'ngAudio']);
 
   module.config(appConfig);
 
@@ -12,6 +12,6 @@
       .state('app.board', {
         url: '/board',
         templateUrl: 'app/modules/board/board.html'
-      })
+      });
   }
 })();

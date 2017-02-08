@@ -1,4 +1,4 @@
-<div id="learning-content">
+<div id="learning-content" ng-controller="boardController">
     <div class="background">
         <table class="table">
             <tbody>
@@ -7,7 +7,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>As much as we may <mark>love our jobs</mark>, the simple truth is that most of us live for el fin de semana, or the weekend.</p>
+                        <p>As much as we may <mark>love our jobs</mark>, the simple truth is that most of us live for <span ng-mouseover="audio.paused ? audio.play() : audio.pause()">el fin de semana</span>, or the weekend.</p>
                         <p>Being able to talk about weekend plans, then, is critical in Spanish.</p>
                      <p>Phrases that use the verb ir are common when people talk about where they're going.</p>
                     </td>                   
