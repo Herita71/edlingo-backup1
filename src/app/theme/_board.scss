@@ -8,10 +8,18 @@
     .background{
         background-color: white;
         padding: 5px;
+        font-size: 18px;
+        position: relative;
+        .btn-right{
+            position: relative;
+            left: 325px;
+            padding: 8px;
+        }
     }
     footer{
         padding: 2px 5px;
         color: darkgrey;
+        font-size: 18px;
         .center{
             position: absolute;
             left: 210px;
