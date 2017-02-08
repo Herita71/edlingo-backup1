@@ -1,0 +1,20 @@
+#learning-content{
+    padding: 10px;
+    background-color: rgb(224,240,248);
+    margin: 10px auto;
+    width: 465px;
+    border-radius: 5px;
+    position: relative;
+    .background{
+        background-color: white;
+        padding: 5px;
+    }
+    footer{
+        padding: 2px 5px;
+        color: darkgrey;
+        .center{
+            position: absolute;
+            left: 210px;
+        }
+    }
+}
