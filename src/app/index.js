@@ -6,7 +6,7 @@
         // 'app.core',
         // 'app.profile',
         // 'app.post',
-        'app.dashboard'
+        'app.board'
         // 'app.data',
         // 'app.common'
     ]);
